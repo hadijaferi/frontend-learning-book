@@ -1,10 +1,12 @@
 import { ChapterSection } from "./chapter-section";
+import { SyntaxHighlighter } from "./syntax-highlighter";
 import { Sidebar } from "./sidebar";
 import type { Chapter } from "@/content/chapters";
 
 export function BookLayout({ chapters }: { chapters: readonly Chapter[] }) {
   return (
     <div className="layout">
+      <SyntaxHighlighter />
       <Sidebar />
       <main className="content" id="top">
         <div className="top"><span>Frontend Engineering • مبانی تا پیشرفته</span><span>مفاهیم • مثال‌ها • سؤال‌وجواب</span></div>
