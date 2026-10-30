@@ -36,6 +36,7 @@ export const navigationChapters: readonly NavigationChapter[] = [
       { id: "performance", label: "Performance & Virtualization" },
       { id: "service-workers", label: "Service Workers, PWA & Offline" },
       { id: "security", label: "Web Security & Networking" },
+      { id: "security-xss-csrf", label: "↳ XSS و CSRF در React و Next.js" },
       { id: "nx", label: "Nx Monorepo & Micro-frontends" },
       { id: "docker", label: "Docker & Frontend DevOps" },
       { id: "testing", label: "Testing & Code Quality" },
